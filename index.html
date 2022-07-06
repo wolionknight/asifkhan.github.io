@@ -1,0 +1,953 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <title>Asif Khan</title>
+  <!-- font -->
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Arima:wght@200&family=Lato:wght@300&family=Poppins&family=Rajdhani&family=Roboto&family=Titillium+Web&family=Yellowtail&display=swap');
+  </style>
+  <!-- Favicon -->
+  <link rel="icon" href="img/fav.png" type="image/x-icon" />
+  <!-- wow -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+  <link rel="stylesheet" href="css/animate.css">
+  <!-- Tailwind -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Tailwind Elements CSS -->
+  <link rel="stylesheet" href="css/index.min.css" />
+  <link rel="stylesheet" href="css/main.css">
+  <!-- js jquery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <!-- fontawesome -->
+  <script src="https://kit.fontawesome.com/b0a322352e.js" crossorigin="anonymous"></script>
+
+  <!-- Custom styles -->
+  <style></style>
+</head>
+
+<body class="font-[poppins]">
+  <!-- Back to top button -->
+  <button type="button" data-mdb-ripple="true" data-mdb-ripple-color="light"
+    class="fixed inline-block p-5 bg-sky-600 text-white font-medium text-xs leading-tight uppercase rounded-full shadow-md hover:bg-sky-700 hover:shadow-lg focus:bg-sky-900 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-sky-800 active:shadow-lg transition duration-150 ease-in-out bottom-5 right-5"
+    id="btn-back-to-top">
+    <i class="fa-solid fa-jet-fighter-up"></i>  </button>
+  <script src="js/main.js"></script>
+  <!-- start project-->
+  <div id="home" class="bg-cover md:bg-contain font-[rajdhani] text-white w-full "
+    style="background-image: url(img/mebg.jpg); background-position: 50%;">
+    <div class=" bg-black bg-opacity-50 ">
+      <div id="TopNav"
+        class="flex md:items-center lg:space-x-96 md:space-x-80 2xl:space-x-80 z-50 fixed w-full drop-shadow-2xl shadow-black">
+        <div class="text-white flex space-x-60 sm:space-x-96 px-10 py-5">
+          <div id="brand" class="w-16 md:w-full md:text-2xl">
+            <p class="text-white textnav font-[Yellowtail]">Asif Khan</p>
+          </div>
+          <button id="toggle" class="md:hidden textnav text-2xl grid justify-items-center">
+            <ion-icon name="finger-print-outline"></ion-icon>
+          </button>
+        </div>
+        <nav id="menubar" class="menubarback hidden fixed md:flex md:bg-transparent text-lg bg-sky-400 w-full">
+          <ul class="capitalize grid px-10 py-5 md:flex md:space-x-5">
+            <li class=" flex justify-between md:hidden" id="toggleback">
+              <div id="brand">
+                <p class="text-white textnav font-[Yellowtail]">Asif Khan</p>
+              </div>
+              <i class="fa-solid fa-circle-nodes text-2xl animate-spin"></i>
+              <!-- <ion-icon name="close-outline" class="text-xl text-white active:text-sky-500"></ion-icon> -->
+
+            </li>
+            <li class="textnav border-transparent border-b-2 hover:border-sky-500"><a href="#home">home</a></li>
+            <li class="textnav border-transparent border-b-2 hover:border-sky-500"><a href="#about">About</a></li>
+            <li class="textnav border-transparent border-b-2 hover:border-sky-500"><a href="#education">education</a>
+            </li>
+            <li class="textnav border-transparent border-b-2 hover:border-sky-500"><a href="#work">Work</a></li>
+            <li class="textnav border-transparent border-b-2 hover:border-sky-500"><a href="#skill">Skill</a></li>
+            <li class="textnav border-transparent border-b-2 hover:border-sky-500"><a
+                href="#achievement">achievement</a></li>
+            <li class="textnav border-transparent border-b-2 hover:border-sky-500"><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+
+      </div>
+      <header>
+        <div class="pb-5 md:pb-20 grid justify-items-center capitalize pt-16 md:pt-24">
+          <p class="capitalize text-sm md:text-2xl md:mt-16">assalamu alaikum</p>
+          <div class="">
+            <p class="capitalize text-lg">i am <span class="ainput md:text-6xl"></span> </p>
+          </div>
+          <div id="socialco" class="flex space-x-5 text-sm pt-5 md:pt-5">
+            <p class=""><a href="http://" target="_blank" rel="noopener noreferrer"><i
+                  class="fa-brands fa-facebook-f hover:scale-150 hover:text-sky-500"></i></a></p>
+            <p class=""><a href="http://" target="_blank" rel="noopener noreferrer"><i
+                  class="fa-brands fa-twitter hover:scale-150 hover:text-sky-500"></i></a></p>
+            <p class=""><a href="http://" target="_blank" rel="noopener noreferrer"><i
+                  class="fa-brands fa-instagram hover:scale-150 hover:text-sky-500"></i></a></p>
+            <p class=""><a href="http://" target="_blank" rel="noopener noreferrer"><i
+                  class="fa-brands fa-google hover:scale-150 hover:text-sky-500"></i></a></p>
+          </div>
+          <div id="cv">
+            <button class="p-1 mt-5 border-2 border-white rounded-sm hover:bg-white hover:text-black">Download
+              CV</button>
+          </div>
+          <div>
+
+          </div>
+        </div>
+      </header>
+    </div>
+  </div>
+  <!-- About -->
+  <section id="about" class="mt-10 py-16 px-10">
+    <div class="md:flex">
+      <div id="myimg" class="md:block hidden w-1/2 px-10">
+        <img class="wow fade-in-up bg-sky-400 w-full h-full rounded-xl " src="img/meinbike.png" alt="">
+      </div>
+
+      <div id="desc" class="md:w-1/2 md:pt-5">
+        <p class="text-black text-xl font-bold wow fade-in-up">About me</p>
+        <p class="text-gray-500 py-2 wow fade-in-up">Hello! I'm <b class="text-xl text-sky-500">Asif Khan.</b></p>
+        <div class="text-gray-500 text-justify">
+          <p class="wow slide-in-up" data-wow-duration="2s"> It is a long established fact that a reader will be distracted by the readable content of a page when
+            looking at its layout.</p>
+          <p class="py-5 wow slide-in-up" data-wow-duration="2s"> The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,
+            as opposed to
+            using 'Content here, content here', making it look like readable English.</p>
+          <p class="wow slide-in-up" data-wow-duration="2s"> There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration
+            in some form, by injected humour, or randomised words which don't look even slightly believable. <a href=""
+              class="p-1 text-sky-500">more</a></p>
+        </div>
+        <div id="myimg" class="md:hidden px-10 pt-5">
+          <img class=" bg-sky-400 w-full h-full rounded-xl wow slide-in-up" data-wow-duration="2s" src="img/meinbike.png" alt="">
+        </div>
+        <div id="socialco" class="flex space-x-5 pt-5 md:pt-5 justify-center text-xl wow slide-in-up" data-wow-duration="2s">
+          <p
+            class="bg-white text-sky-500 px-4 py-2 hover:text-white hover:bg-sky-500 border-sky-500 border-2 rounded-full hover:animate-bounce">
+            <a href="http://" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-facebook-f"></i></a>
+          </p>
+          <p
+            class="bg-white text-sky-500 px-3 py-2 hover:text-white hover:bg-sky-500 border-sky-500 border-2 rounded-full hover:animate-bounce">
+            <a href="http://" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-twitter"></i></a>
+          </p>
+          <p
+            class="bg-white text-sky-500 px-3 py-2 hover:text-white hover:bg-sky-500 border-sky-500 border-2 rounded-full hover:animate-bounce">
+            <a href="http://" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-instagram"></i></a>
+          </p>
+          <p
+            class="bg-white text-sky-500 px-3 py-2 hover:text-white hover:bg-sky-500 border-sky-500 border-2 rounded-full hover:animate-bounce">
+            <a href="http://" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-google"></i></a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- education -->
+  <section id="education" class="pb-20 font-[poppins] px-10">
+    <h1 class="uppercase justify-center pt-10 space-x-1 font-bold flex">
+      <p class="wow slide-in-up" data-wow-duration="2s">education</p>
+    </h1>
+    <p class="text-gray-500 py-5 text-justify wow slide-in-up" data-wow-duration="2s">Education is about learning skills and knowledge. It also means helping
+      people to learn how to do things
+      and support them to think about what they learn. It's also important for educators to teach ways to find and use
+      information.
+    </p>
+    <ul class="
+    nav nav-tabs nav-justified
+    flex flex-col
+    md:flex-row
+    flex-wrap
+    list-none
+    border-b-0
+    pl-0
+    mb-4
+    wow slide-in-up" data-wow-duration="2s" 
+  id="tabs-tabJustify" role="tablist">
+      <li class="nav-item flex-grow text-center" role="presentation">
+        <a href="#tabs-homeJustify" class="
+        nav-link
+        w-full
+        block
+        font-medium
+        text-xl
+        leading-tight
+        uppercase
+        border-x-0 border-t-0 border-b-2 border-transparent
+        px-6
+        py-3
+        my-2
+        hover:border-transparent hover:bg-gray-100
+        focus:border-transparent
+        active
+      " id="tabs-home-tabJustify" data-bs-toggle="pill" data-bs-target="#tabs-homeJustify" role="tab"
+          aria-controls="tabs-homeJustify" aria-selected="true">Primary School</a>
+      </li>
+      <li class="nav-item flex-grow text-center" role="presentation">
+        <a href="#tabs-profileJustify" class="
+        nav-link
+        w-full
+        block
+        font-medium
+        text-xl
+        leading-tight
+        uppercase
+        border-x-0 border-t-0 border-b-2 border-transparent
+        px-6
+        py-3
+        my-2
+        hover:border-transparent hover:bg-gray-100
+        focus:border-transparent
+      " id="tabs-profile-tabJustify" data-bs-toggle="pill" data-bs-target="#tabs-profileJustify" role="tab"
+          aria-controls="tabs-profileJustify" aria-selected="false">high school</a>
+      </li>
+      <li class="nav-item flex-grow text-center" role="presentation">
+        <a href="#tabs-messagesJustify" class="
+        nav-link
+        w-full
+        block
+        font-medium
+        text-xl
+        leading-tight
+        uppercase
+        border-x-0 border-t-0 border-b-2 border-transparent
+        px-6
+        py-3
+        my-2
+        hover:border-transparent hover:bg-gray-100
+        focus:border-transparent
+      " id="tabs-messages-tabJustify" data-bs-toggle="pill" data-bs-target="#tabs-messagesJustify" role="tab"
+          aria-controls="tabs-messagesJustify" aria-selected="false">College</a>
+      </li>
+    </ul>
+    <div class="tab-content wow slide-in-up" data-wow-duration="2s" id="tabs-tabContentJustify">
+      <div class="tab-pane fade show active" id="tabs-homeJustify" role="tabpanel"
+        aria-labelledby="tabs-home-tabJustify">
+        <ul class="justify-center grid text-center bg-sky-500 text-white mx-10 rounded-sm py-2">
+          <li class="">
+            <p>Tanore Model Govt. Primary School.</p>
+          </li>
+          <li>PSC Exam</li>
+          <li>General Studies</li>
+          <li>GPA-5</li>
+          <li>2013</li>
+        </ul>
+
+      </div>
+      <div class="tab-pane fade" id="tabs-profileJustify" role="tabpanel" aria-labelledby="tabs-profile-tabJustify">
+        <ul class="justify-center grid text-center bg-sky-500 text-white mx-10 rounded-sm py-2">
+          <li>Tanore Pilot High School.</li>
+          <li>SSC Exam</li>
+          <li>Science Group</li>
+          <li>GPA-4.89</li>
+          <li>2019</li>
+        </ul>
+      </div>
+      <div class="tab-pane fade" id="tabs-messagesJustify" role="tabpanel" aria-labelledby="tabs-profile-tabJustify">
+        <ul class="justify-center grid text-center bg-sky-500 text-white mx-10 rounded-sm py-2">
+          <li>Naohata Govt Degree College</li>
+          <li class="">HSC Exam</li>
+          <li>intermediate in science</li>
+          <li>GPA-5</li>
+          <li>2021</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- work -->
+  <section id="work" class=" wow slide-in-up" data-wow-duration="2s">
+    <p class="grid justify-items-center uppercase py-5">my previous works</p>
+    <div>
+      <div id="firstrow" class="px-10">
+
+        <ul class="md:flex grid justify-center">
+          <li class="md:w-1/3 m-2 wow slide-in-up" data-wow-duration="2s">
+            <a href="https://asif-the-wolion.github.io/asifkhan.github.io/" target="_blank" rel="noopener noreferrer">
+              <img src="img/web (1).png"
+                class=" border-violet-500 border-2  hover:border-sky-900 transition-all ease-in-out delay-100 hover:scale-110 overflow-hidden"
+                alt="">
+            </a>
+            <p class="text-gray-500 capitalize grid justify-center py-2">first CV</p>
+          </li>
+          <li class="md:w-1/3 m-2 wow slide-in-up" data-wow-duration="2s">
+            <a href="https://wolionknight.github.io/newcharity.github.io/" target="_blank" rel="noopener noreferrer">
+              <img src="img/web 2.png"
+                class=" border-orange-500 border-2  hover:border-sky-900 transition-all ease-in-out delay-100 hover:scale-110 overflow-hidden"
+                alt="">
+            </a>
+            <p class="text-gray-500 capitalize grid justify-center py-2">Web Charity</p>
+
+          </li>
+          <li class="md:w-1/3 m-2 wow slide-in-up" data-wow-duration="2s">
+            <a href="https://wolionknight.github.io/educationws/" target="_blank" rel="noopener noreferrer">
+              <img src="img/web (3).png"
+                class=" border-sky-500 border-2  hover:border-sky-900 transition-all ease-in-out delay-100 hover:scale-110 overflow-hidden"
+                alt="">
+            </a>
+            <p class="text-gray-500 capitalize grid justify-center py-2">Education Institute</p>
+
+          </li>
+        </ul>
+
+        <ul class="md:flex grid justify-items-center justify-center ">
+          <li class="md:w-1/3 w-full m-2 wow slide-in-up" data-wow-duration="2s">
+            <a href="https://wolionknight.github.io/webzoo/" target="_blank" rel="noopener noreferrer">
+              <img src="img/web 4.png"
+                class=" border-green-500 border-2  hover:border-sky-900 transition-all ease-in-out delay-100 hover:scale-110 overflow-hidden"
+                alt="">
+            </a>
+            <p class="text-gray-500 capitalize grid justify-center py-2">Web Zoo</p>
+
+          </li>
+          <li class="md:w-1/3 w-full m-2 wow slide-in-up" data-wow-duration="2s">
+            <a href="https://asif-the-wolion.github.io/ashrai.github.io/" target="_blank" rel="noopener noreferrer">
+              <img src="img/web 5.jpg"
+                class=" border-green-800 border-2  hover:border-sky-900 transition-all ease-in-out delay-100 hover:scale-110 overflow-hidden"
+                alt="">
+            </a>
+            <p class="text-gray-500 capitalize grid justify-center py-2">University Admission</p>
+
+          </li>
+        </ul>
+
+      </div>
+    </div>
+    </div>
+  </section>
+  <!-- skills -->
+  <section id="skill" class="py-20 px-10 wow slide-in-up" data-wow-duration="2s">
+    <p class="grid justify-center py-10 text-gray-500 text-xl capitalize wow slide-in-up" data-wow-duration="2s">my skills</p>
+    <p class="grid justify-center pb-5 text-gray-500 text-sm capitalize wow slide-in-up" data-wow-duration="2s">
+      The percentage that has been shown next to all these skills of mine is how comfortable I feel in this languange or
+      section.
+    </p>
+    <div class=" bg-cover bg-center my-5 bg-fixed wow slide-in-up" data-wow-duration="2s" style="background-image: url(img/edubg.jpg);">
+      <div class="bg-black bg-opacity-75 py-5 text-white">
+        <div id="frontend">
+          <div id="webdev" class="flex justify-between px-10 pb-5">
+            <button class="pr-24 md:pr-0">Front End Web Development</button>
+            <button><i class="fa-solid fa-circle-info text-sky-500 text-xl"></i></button>
+          </div>
+          <div id="webdesc" class="hidden">
+            <div id="html">
+              <div class="flex justify-between px-10">
+                <p>html 5</p>
+                <p>70%</p>
+              </div>
+              <div class=" bg-gray-200 h-1 mx-10">
+                <div class="bg-sky-600 h-1 " style="width: 75%"></div>
+              </div>
+            </div>
+            <div id="css">
+              <div class="flex justify-between px-10">
+                <p>css 3</p>
+                <p>70%</p>
+              </div>
+              <div class=" bg-gray-200 h-1 mx-10">
+                <div class="bg-sky-600 h-1 " style="width: 75%"></div>
+              </div>
+            </div>
+            <div id="Tailwindcss">
+              <div class="flex justify-between px-10">
+                <p>css 3</p>
+                <p>80%</p>
+              </div>
+              <div class=" bg-gray-200 h-1 mx-10">
+                <div class="bg-sky-600 h-1 " style="width: 75%"></div>
+              </div>
+            </div>
+            <div id="Bootstrap css">
+              <div class="flex justify-between px-10">
+                <p>Bootstrap css</p>
+                <p>60%</p>
+              </div>
+              <div class=" bg-gray-200 h-1 mx-10">
+                <div class="bg-sky-600 h-1 " style="width: 75%"></div>
+              </div>
+            </div>
+            <div id="javascript">
+              <div class="flex justify-between px-10">
+                <p>javascript</p>
+                <p>70%</p>
+              </div>
+              <div class=" bg-gray-200 h-1 mx-10">
+                <div class="bg-sky-600 h-1 " style="width: 75%"></div>
+              </div>
+            </div>
+            <div id="React Js">
+              <div class="flex justify-between px-10">
+                <p>React Js</p>
+                <p>5%</p>
+              </div>
+              <div class=" bg-gray-200 h-1 mx-10">
+                <div class="bg-sky-600 h-1 " style="width: 5%"></div>
+              </div>
+            </div>
+            <div id="Git">
+              <div class="flex justify-between px-10">
+                <p>Github</p>
+                <p>50%</p>
+              </div>
+              <div class=" bg-gray-200 h-1 mx-10">
+                <div class="bg-sky-600 h-1 " style="width: 50%"></div>
+              </div>
+            </div>
+            <div id="web security">
+              <div class="flex justify-between px-10">
+                <p>web security</p>
+                <p>55%</p>
+              </div>
+              <div class=" bg-gray-200 h-1 mx-10">
+                <div class="bg-sky-600 h-1 " style="width: 55%"></div>
+              </div>
+            </div>
+            <div id="Node Js/ NPM">
+              <div class="flex justify-between px-10">
+                <p>Node Js/ NPM</p>
+                <p>55%</p>
+              </div>
+              <div class=" bg-gray-200 h-1 mx-10">
+                <div class="bg-sky-600 h-1 " style="width: 55%"></div>
+              </div>
+            </div>
+            <div id="CSS Preprocessors/ PostCSS" class="mb-5">
+              <div class="flex justify-between px-10">
+                <p>CSS Preprocessors/ PostCSS</p>
+                <p>55%</p>
+              </div>
+              <div class=" bg-gray-200 h-1 mx-10">
+                <div class="bg-sky-600 h-1 " style="width: 55%"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="backend">
+          <div id="backdev" class="flex justify-between px-10 pb-5">
+            <button class="pr-24 md:pr-0">Back End Web Development</button>
+            <button><i class="fa-solid fa-circle-info text-sky-500 text-xl"></i></button>
+          </div>
+          <div id="backdesc" class="hidden mb-5">
+            <div id="Django" class="">
+              <div class="flex justify-between px-10">
+                <p>Django</p>
+                <p>20%</p>
+              </div>
+              <div class=" bg-gray-200 h-1 mx-10">
+                <div class="bg-sky-600 h-1 " style="width: 75%"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="digital marketing">
+          <div id="digmrkt" class="flex justify-between px-10 pb-5">
+            <button>Digital Marketing</button>
+            <button><i class="fa-solid fa-circle-info text-sky-500 text-xl"></i></button>
+          </div>
+          <div id="digdesc" class="hidden mb-5">
+            <div id="Google My business" class="">
+              <div class="flex justify-between px-10">
+                <p>Google My business</p>
+                <p>80%</p>
+              </div>
+              <div class=" bg-gray-200 h-1 mx-10">
+                <div class="bg-sky-600 h-1 " style="width: 80%"></div>
+              </div>
+            </div>
+            <div id="Facebook Marketing" class="">
+              <div class="flex justify-between px-10">
+                <p>Facebook Marketing</p>
+                <p>40%</p>
+              </div>
+              <div class=" bg-gray-200 h-1 mx-10">
+                <div class="bg-sky-600 h-1 " style="width: 40%"></div>
+              </div>
+            </div>
+            <div id="Local SEO" class="">
+              <div class="flex justify-between px-10">
+                <p>Local SEO</p>
+                <p>30%</p>
+              </div>
+              <div class=" bg-gray-200 h-1 mx-10">
+                <div class="bg-sky-600 h-1 " style="width: 30%"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="Content Creating">
+          <div id="contbtn" class="flex justify-between px-10">
+            <button class="">Content Creating</button>
+            <button><i class="fa-solid fa-circle-info text-sky-500 text-xl"></i></button>
+          </div>
+          <div id="contdesc" class="hidden mb-5">
+            <div id="Adobe Photoshop" class="">
+              <div class="flex justify-between px-10">
+                <p>Adobe Photoshop</p>
+                <p>70%</p>
+              </div>
+              <div class=" bg-gray-200 h-1 mx-10">
+                <div class="bg-sky-600 h-1 " style="width: 70%"></div>
+              </div>
+            </div>
+            <div id="Shotcut - video Editing" class="">
+              <div class="flex justify-between px-10">
+                <p>Shotcut - video Editing</p>
+                <p>40%</p>
+              </div>
+              <div class=" bg-gray-200 h-1 mx-10">
+                <div class="bg-sky-600 h-1 " style="width: 40%"></div>
+              </div>
+            </div>
+            <div id="Blogging" class="">
+              <div class="flex justify-between px-10">
+                <p>Blogging</p>
+                <p>60%</p>
+              </div>
+              <div class=" bg-gray-200 h-1 mx-10">
+                <div class="bg-sky-600 h-1 " style="width: 60%"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- achievement -->
+  <section id="achievement">
+    <div>
+      <p class="capitalize grid text-center justify-items-center py-10 wow slide-in-up" data-wow-duration="2s">My achievement</p>
+    </div>
+    <div class="bg-center bg-cover bg-no-repeat wow slide-in-up" data-wow-duration="2s" style="background-image: url(img/gift.jpg);">
+      <div class="bg-sky-500 bg-opacity-75 ">
+        <ul class="text-white capitalize md:p-10 md:flex grid justify-items-center wow slide-in-up" data-wow-duration="2s">
+          <li class="w-full md:w-1/2 pt-5 justify-center grid text-center mx-2">
+            <p>Prize name</p>
+            <span class="grid border-2 border-white hover:bg-white hover:text-sky-500 p-5">
+              <p>Best Book Reader </p>
+              <p> 2017</p>
+              <p>Secaep, Tanore Pilot Model High School</p>
+            </span>
+          </li>
+          <li class="w-full md:w-1/2 pt-5 justify-center grid text-center mx-2">
+            <p>Prize name</p>
+            <span class="grid border-2 border-white hover:bg-white hover:text-sky-500 p-5">
+              <p>Best Book Reader </p>
+              <p> 2017</p>
+              <p>Secaep, Tanore Pilot Model High School</p>
+            </span>
+          </li>
+          <li class="w-full md:w-1/2 pt-5 justify-center grid text-center mx-2">
+            <p>Prize name</p>
+            <span class="grid border-2 border-white hover:bg-white hover:text-sky-500 p-5">
+              <p>Best Book Reader </p>
+              <p> 2017</p>
+              <p>Secaep, Tanore Pilot Model High School</p>
+            </span>
+          </li>
+          <li class="w-full md:w-1/2 md:pb-0 py-5 justify-center grid text-center mx-2">
+            <p>Prize name</p>
+            <span class="grid border-2 border-white hover:bg-white hover:text-sky-500 p-5">
+              <p>Best Book Reader </p>
+              <p> 2017</p>
+              <p>Secaep, Tanore Pilot Model High School</p>
+            </span>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- contact -->
+  <section id="contact">
+    <p class="grid justify-center text-xl  my-24 uppercase wow slide-in-up" data-wow-duration="2s">contact</p>
+    <div class="container px-6 mx-auto wow slide-in-up" data-wow-duration="2s">
+
+
+      <section class="mb-32 text-gray-800">
+        <div class="block rounded-lg shadow-lg bg-white">
+          <div class="flex flex-wrap items-center">
+            <div class="grow-0 shrink-0 basis-auto block w-full lg:flex lg:w-6/12 xl:w-4/12">
+              <div class=" w-full">
+                <!-- <iframe src="https://maps.google.com/maps?q=manhatan&t=&z=13&ie=UTF8&iwloc=&output=embed" class="left-0 top-0 h-full w-full rounded-t-lg lg:rounded-tr-none lg:rounded-bl-lg" frameborder="0" allowfullscreen></iframe> -->
+                <img src="img/social.jpg" alt="">
+              </div>
+            </div>
+            <div class="grow-0 shrink-0 basis-auto w-full lg:w-6/12 xl:w-8/12">
+              <div class="flex flex-wrap pt-12 lg:pt-0">
+                <div
+                  class="mb-12 grow-0 shrink-0 basis-auto w-full md:w-6/12 lg:w-full xl:w-6/12 px-3 md:px-6 xl:px-12">
+                  <div class="flex items-start">
+                    <div class="shrink-0">
+                      <div class="p-4 bg-blue-600 rounded-md shadow-md w-14 h-14 flex items-center justify-center">
+                        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="headset"
+                          class="w-5 text-white" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                          <path fill="currentColor"
+                            d="M192 208c0-17.67-14.33-32-32-32h-16c-35.35 0-64 28.65-64 64v48c0 35.35 28.65 64 64 64h16c17.67 0 32-14.33 32-32V208zm176 144c35.35 0 64-28.65 64-64v-48c0-35.35-28.65-64-64-64h-16c-17.67 0-32 14.33-32 32v112c0 17.67 14.33 32 32 32h16zM256 0C113.18 0 4.58 118.83 0 256v16c0 8.84 7.16 16 16 16h16c8.84 0 16-7.16 16-16v-16c0-114.69 93.31-208 208-208s208 93.31 208 208h-.12c.08 2.43.12 165.72.12 165.72 0 23.35-18.93 42.28-42.28 42.28H320c0-26.51-21.49-48-48-48h-32c-26.51 0-48 21.49-48 48s21.49 48 48 48h181.72c49.86 0 90.28-40.42 90.28-90.28V256C507.42 118.83 398.82 0 256 0z">
+                          </path>
+                        </svg>
+                      </div>
+                    </div>
+                    <div class="grow ml-6">
+                      <p class="font-bold mb-1">Additional support</p>
+                      <p class="text-gray-500">thewolion@gmail.com</p>
+                      <p class="text-gray-500">01997695202</p>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="mb-12 grow-0 shrink-0 basis-auto w-full md:w-6/12 lg:w-full xl:w-6/12 px-3 md:px-6 xl:px-12">
+                  <div class="flex items-start">
+                    <div class="shrink-0">
+                      <div class="p-4 bg-blue-600 rounded-md shadow-md w-14 h-14 flex items-center justify-center">
+                        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="dollar-sign"
+                          class="w-3 text-white" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 288 512">
+                          <path fill="currentColor"
+                            d="M209.2 233.4l-108-31.6C88.7 198.2 80 186.5 80 173.5c0-16.3 13.2-29.5 29.5-29.5h66.3c12.2 0 24.2 3.7 34.2 10.5 6.1 4.1 14.3 3.1 19.5-2l34.8-34c7.1-6.9 6.1-18.4-1.8-24.5C238 74.8 207.4 64.1 176 64V16c0-8.8-7.2-16-16-16h-32c-8.8 0-16 7.2-16 16v48h-2.5C45.8 64-5.4 118.7.5 183.6c4.2 46.1 39.4 83.6 83.8 96.6l102.5 30c12.5 3.7 21.2 15.3 21.2 28.3 0 16.3-13.2 29.5-29.5 29.5h-66.3C100 368 88 364.3 78 357.5c-6.1-4.1-14.3-3.1-19.5 2l-34.8 34c-7.1 6.9-6.1 18.4 1.8 24.5 24.5 19.2 55.1 29.9 86.5 30v48c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16v-48.2c46.6-.9 90.3-28.6 105.7-72.7 21.5-61.6-14.6-124.8-72.5-141.7z">
+                          </path>
+                        </svg>
+                      </div>
+                    </div>
+                    <div class="grow ml-6">
+                      <p class="font-bold mb-1">Hire Me</p>
+                      <p class="text-gray-500">thewolion@gmail.com</p>
+                      <p class="text-gray-500">01997695202</p>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="mb-12 grow-0 shrink-0 basis-auto w-full md:w-6/12 lg:w-full xl:w-6/12 px-3 md:px-6 xl:px-12">
+                  <div class="flex align-start">
+                    <div class="shrink-0">
+                      <div class="p-4 bg-blue-600 rounded-md shadow-md w-14 h-14 flex items-center justify-center">
+                        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="newspaper"
+                          class="w-5 text-white" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                          <path fill="currentColor"
+                            d="M552 64H88c-13.255 0-24 10.745-24 24v8H24c-13.255 0-24 10.745-24 24v272c0 30.928 25.072 56 56 56h472c26.51 0 48-21.49 48-48V88c0-13.255-10.745-24-24-24zM56 400a8 8 0 0 1-8-8V144h16v248a8 8 0 0 1-8 8zm236-16H140c-6.627 0-12-5.373-12-12v-8c0-6.627 5.373-12 12-12h152c6.627 0 12 5.373 12 12v8c0 6.627-5.373 12-12 12zm208 0H348c-6.627 0-12-5.373-12-12v-8c0-6.627 5.373-12 12-12h152c6.627 0 12 5.373 12 12v8c0 6.627-5.373 12-12 12zm-208-96H140c-6.627 0-12-5.373-12-12v-8c0-6.627 5.373-12 12-12h152c6.627 0 12 5.373 12 12v8c0 6.627-5.373 12-12 12zm208 0H348c-6.627 0-12-5.373-12-12v-8c0-6.627 5.373-12 12-12h152c6.627 0 12 5.373 12 12v8c0 6.627-5.373 12-12 12zm0-96H140c-6.627 0-12-5.373-12-12v-40c0-6.627 5.373-12 12-12h360c6.627 0 12 5.373 12 12v40c0 6.627-5.373 12-12 12z">
+                          </path>
+                        </svg>
+                      </div>
+                    </div>
+                    <div class="grow ml-6">
+                      <p class="font-bold mb-1">Chat</p>
+                      <p class="text-gray-500"><a href="http://" target="_blank" rel="noopener noreferrer">messenger</a></p>
+                      <p class="text-gray-500">01997695202</p>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="mb-12 lg:mb-0 grow-0 shrink-0 basis-auto w-full md:w-6/12 lg:w-full xl:w-6/12 px-3 md:px-6 xl:px-12">
+                  <div class="flex align-start">
+                    <div class="shrink-0">
+                      <div class="p-4 bg-blue-600 rounded-md shadow-md w-14 h-14 flex items-center justify-center">
+                        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="bug"
+                          class="w-5 text-white" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                          <path fill="currentColor"
+                            d="M511.988 288.9c-.478 17.43-15.217 31.1-32.653 31.1H424v16c0 21.864-4.882 42.584-13.6 61.145l60.228 60.228c12.496 12.497 12.496 32.758 0 45.255-12.498 12.497-32.759 12.496-45.256 0l-54.736-54.736C345.886 467.965 314.351 480 280 480V236c0-6.627-5.373-12-12-12h-24c-6.627 0-12 5.373-12 12v244c-34.351 0-65.886-12.035-90.636-32.108l-54.736 54.736c-12.498 12.497-32.759 12.496-45.256 0-12.496-12.497-12.496-32.758 0-45.255l60.228-60.228C92.882 378.584 88 357.864 88 336v-16H32.666C15.23 320 .491 306.33.013 288.9-.484 270.816 14.028 256 32 256h56v-58.745l-46.628-46.628c-12.496-12.497-12.496-32.758 0-45.255 12.498-12.497 32.758-12.497 45.256 0L141.255 160h229.489l54.627-54.627c12.498-12.497 32.758-12.497 45.256 0 12.496 12.497 12.496 32.758 0 45.255L424 197.255V256h56c17.972 0 32.484 14.816 31.988 32.9zM257 0c-61.856 0-112 50.144-112 112h224C369 50.144 318.856 0 257 0z">
+                          </path>
+                        </svg>
+                      </div>
+                    </div>
+                    <div class="grow ml-6">
+                      <p class="font-bold mb-1">Report a Problem</p>
+                      <p class="text-gray-500">thewolion@gmail.com</p>
+                      <p class="text-gray-500">01997695202</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+    </div>
+
+  </section>
+
+  <!-- footer -->
+  <footer id="footer" class="text-center lg:text-left bg-cover text-white wow slide-in-up"
+    style="background-image: url(img/gift.jpg);">
+    <div class=" bg-black bg-opacity-75">
+      <div class="flex justify-center items-center lg:justify-between p-2 border-b border-gray-300">
+        <div class="mr-12 hidden lg:block">
+          <span>Get connected with us on social networks:</span>
+        </div>
+        <div class="flex justify-center ">
+          <!-- facebook -->
+          <a href="https://www.facebook.com/thewolion" class="mr-6 text-white hover:text-blue-500">
+            <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="facebook-f" class="w-2.5" role="img"
+              xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+              <path fill="currentColor"
+                d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z">
+              </path>
+            </svg>
+          </a>
+          <!-- twitter -->
+          <a href="#!" class="mr-6 text-white hover:text-sky-500">
+            <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="twitter" class="w-4" role="img"
+              xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+              <path fill="currentColor"
+                d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z">
+              </path>
+            </svg>
+          </a>
+          <!-- google -->
+          <a href="#!" class="mr-6 text-white hover:text-blue-600">
+            <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="google" class="w-3.5" role="img"
+              xmlns="http://www.w3.org/2000/svg" viewBox="0 0 488 512">
+              <path fill="currentColor"
+                d="M488 261.8C488 403.3 391.1 504 248 504 110.8 504 0 393.2 0 256S110.8 8 248 8c66.8 0 123 24.5 166.3 64.9l-67.5 64.9C258.5 52.6 94.3 116.6 94.3 256c0 86.5 69.1 156.6 153.7 156.6 98.2 0 135-70.4 140.8-106.9H248v-85.3h236.1c2.3 12.7 3.9 24.9 3.9 41.4z">
+              </path>
+            </svg>
+          </a>
+          <!-- insta -->
+          <a href="#!" class="mr-6 text-white hover:text-pink-500">
+            <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="instagram" class="w-3.5" role="img"
+              xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+              <path fill="currentColor"
+                d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z">
+              </path>
+            </svg>
+          </a>
+          <!-- linkdin -->
+          <a href="#!" class="mr-6 text-white hover:text-blue-700">
+            <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="linkedin-in" class="w-3.5" role="img"
+              xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+              <path fill="currentColor"
+                d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z">
+              </path>
+            </svg>
+          </a>
+          <!-- github -->
+          <a href="#!" class="text-white hover:text-gray-500">
+            <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="github" class="w-4" role="img"
+              xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">
+              <path fill="currentColor"
+                d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z">
+              </path>
+            </svg>
+          </a>
+        </div>
+      </div>
+      <!--  -->
+      <div>
+        <form action="" class="mt-8">
+          <div class="grid md:grid-cols-3 gird-cols-1 gap-4 flex justify-center items-center">
+            <div class="md:ml-auto md:mb-6">
+              <p class="">
+                <strong>Sign up for our newsletter</strong>
+              </p>
+            </div>
+
+            <div class="md:mb-6">
+              <input type="text" class="
+        form-control
+        block
+        w-full
+        px-3
+        py-1.5
+        text-base
+        font-normal
+        text-gray-700
+        bg-white bg-clip-padding
+        border border-solid border-gray-300
+        rounded
+        transition
+        ease-in-out
+        m-0
+        focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none
+      " id="exampleFormControlInput1" placeholder="Email address" />
+            </div>
+
+            <div class="md:mr-auto mb-6">
+              <button type="submit"
+                class="inline-block px-6 py-2 border-2 border-white text-white font-medium text-xs leading-tight uppercase rounded hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out">
+                <a target="_blank" href="mailto:thewolion@gmail.com">Subscribe</a>
+              </button>
+            </div>
+          </div>
+        </form>
+      </div>
+
+      <!--  -->
+      <div class="mx-6 pb-10  text-center md:text-left">
+        <div class="grid grid-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div class="">
+            <h6 class="
+          uppercase
+          font-semibold
+          mb-4
+          flex
+          items-center
+          justify-center
+          md:justify-start
+             text-sky-500
+        ">
+              <!-- <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="cubes" class="w-4 mr-3" role="img"
+            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+            <path fill="currentColor"
+              d="M488.6 250.2L392 214V105.5c0-15-9.3-28.4-23.4-33.7l-100-37.5c-8.1-3.1-17.1-3.1-25.3 0l-100 37.5c-14.1 5.3-23.4 18.7-23.4 33.7V214l-96.6 36.2C9.3 255.5 0 268.9 0 283.9V394c0 13.6 7.7 26.1 19.9 32.2l100 50c10.1 5.1 22.1 5.1 32.2 0l103.9-52 103.9 52c10.1 5.1 22.1 5.1 32.2 0l100-50c12.2-6.1 19.9-18.6 19.9-32.2V283.9c0-15-9.3-28.4-23.4-33.7zM358 214.8l-85 31.9v-68.2l85-37v73.3zM154 104.1l102-38.2 102 38.2v.6l-102 41.4-102-41.4v-.6zm84 291.1l-85 42.5v-79.1l85-38.8v75.4zm0-112l-102 41.4-102-41.4v-.6l102-38.2 102 38.2v.6zm240 112l-85 42.5v-79.1l85-38.8v75.4zm0-112l-102 41.4-102-41.4v-.6l102-38.2 102 38.2v.6z">
+            </path>
+          </svg> -->
+              <p class="text-3xl text-white capitalize font-light font-[Yellowtail]">Asif Khan</p>
+            </h6>
+            <p class="text-justify">
+              I am an expert at frontend web development and google business profiles and know how to digitally catapult
+              your business into orbit! If you need any assistance, ping me
+            </p>
+          </div>
+          <div class="">
+            <h6 class="uppercase font-semibold mb-4 flex    text-sky-500 justify-center md:justify-start">
+              Hire Me at 
+            </h6>
+            <p class="mb-4">
+              <a href="#!" class="text-white">Email</a>
+            </p>
+            <p class="mb-4">
+              <a href="#!" class="text-white">Messenger</a>
+            </p>
+            <p class="mb-4">
+              <a href="#!" class="text-white">instagram</a>
+            </p>
+            <p>
+              <a href="#!" class="text-white">Telegram</a>
+            </p>
+          </div>
+          <div class="">
+            <h6 class="uppercase    text-sky-500 font-semibold mb-4 flex  justify-center md:justify-start">
+              LEGAL DOCUMENTS
+            </h6>
+            <p class="mb-4">
+              <a href="#!" class="text-white">Privacy Policy</a>
+            </p>
+            <p class="mb-4">
+              <a href="#!" class="text-white">Terms and condition</a>
+            </p>
+            <p class="mb-4">
+              <a href="#!" class="text-white">Anti Copyright</a>
+            </p>
+            <p>
+              <a href="#!" class="text-white">Creative Commons</a>
+            </p>
+          </div>
+          <div class="">
+            <h6 class="uppercase font-semibold mb-4    text-sky-500 flex justify-center md:justify-start">
+              Contact
+            </h6>
+            <p class="flex items-center justify-center md:justify-start mb-4">
+              <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="home" class="w-12 mr-4" role="img"
+                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                <path fill="currentColor"
+                  d="M280.37 148.26L96 300.11V464a16 16 0 0 0 16 16l112.06-.29a16 16 0 0 0 15.92-16V368a16 16 0 0 1 16-16h64a16 16 0 0 1 16 16v95.64a16 16 0 0 0 16 16.05L464 480a16 16 0 0 0 16-16V300L295.67 148.26a12.19 12.19 0 0 0-15.3 0zM571.6 251.47L488 182.56V44.05a12 12 0 0 0-12-12h-56a12 12 0 0 0-12 12v72.61L318.47 43a48 48 0 0 0-61 0L4.34 251.47a12 12 0 0 0-1.6 16.9l25.5 31A12 12 0 0 0 45.15 301l235.22-193.74a12.19 12.19 0 0 1 15.3 0L530.9 301a12 12 0 0 0 16.9-1.6l25.5-31a12 12 0 0 0-1.7-16.93z">
+                </path>
+              </svg>
+              38/Bagdhani-20, Bagdhani-6210, Naohata, Poba, Rajshahi
+            </p>
+            <p class="flex items-center justify-center md:justify-start mb-4">
+              <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="envelope" class="w-4 mr-4"
+                role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                <path fill="currentColor"
+                  d="M502.3 190.8c3.9-3.1 9.7-.2 9.7 4.7V400c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V195.6c0-5 5.7-7.8 9.7-4.7 22.4 17.4 52.1 39.5 154.1 113.6 21.1 15.4 56.7 47.8 92.2 47.6 35.7.3 72-32.8 92.3-47.6 102-74.1 131.6-96.3 154-113.7zM256 320c23.2.4 56.6-29.2 73.4-41.4 132.7-96.3 142.8-104.7 173.4-128.7 5.8-4.5 9.2-11.5 9.2-18.9v-19c0-26.5-21.5-48-48-48H48C21.5 64 0 85.5 0 112v19c0 7.4 3.4 14.3 9.2 18.9 30.6 23.9 40.7 32.4 173.4 128.7 16.8 12.2 50.2 41.8 73.4 41.4z">
+                </path>
+              </svg>
+              thewolion@gmail.com
+            </p>
+            <p class="flex items-center justify-center md:justify-start mb-4">
+              <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="phone" class="w-4 mr-4" role="img"
+                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                <path fill="currentColor"
+                  d="M493.4 24.6l-104-24c-11.3-2.6-22.9 3.3-27.5 13.9l-48 112c-4.2 9.8-1.4 21.3 6.9 28l60.6 49.6c-36 76.7-98.9 140.5-177.2 177.2l-49.6-60.6c-6.8-8.3-18.2-11.1-28-6.9l-112 48C3.9 366.5-2 378.1.6 389.4l24 104C27.1 504.2 36.7 512 48 512c256.1 0 464-207.5 464-464 0-11.2-7.7-20.9-18.6-23.4z">
+                </path>
+              </svg>
+              01997695202
+            </p>
+            <p class="flex items-center justify-center md:justify-start">
+              <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="print" class="w-4 mr-4" role="img"
+                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                <path fill="currentColor"
+                  d="M448 192V77.25c0-8.49-3.37-16.62-9.37-22.63L393.37 9.37c-6-6-14.14-9.37-22.63-9.37H96C78.33 0 64 14.33 64 32v160c-35.35 0-64 28.65-64 64v112c0 8.84 7.16 16 16 16h48v96c0 17.67 14.33 32 32 32h320c17.67 0 32-14.33 32-32v-96h48c8.84 0 16-7.16 16-16V256c0-35.35-28.65-64-64-64zm-64 256H128v-96h256v96zm0-224H128V64h192v48c0 8.84 7.16 16 16 16h48v96zm48 72c-13.25 0-24-10.75-24-24 0-13.26 10.75-24 24-24s24 10.74 24 24c0 13.25-10.75 24-24 24z">
+                </path>
+              </svg>
+              01716902313
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="text-center p-6  text-sky-500">
+        <span>© 2022 Copyright:</span>
+        <a class="font-light" href="m.me/thewolion">Asif Khan</a>
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- End project-->
+
+  <!-- js files -->
+  <!-- typed js -->
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+  <!-- jquery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+  <script src="https://code.jquery.com/jquery-1.12.4.min.js"
+    integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ"
+    crossorigin="anonymous"></script>
+  <!-- waypoint js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"></script>
+  <!-- scroll reveal js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"
+    integrity="sha512-d8F1J2kyiRowBB/8/pAWsqUl0wSEOkG5KATkVV4slfblq9VRQ6MyDZVxWl2tWd+mPhuCbpTB4M7uU/x9FlgQ9Q=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script>
+    $('.counter').counterUp({
+      delay: 10,
+      time: 1000
+    });
+  </script>
+  <!-- tailwind js -->
+  <script src="js/index.min.js"></script>
+  <!-- ionicon -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <!-- custom main -->
+  <script src="js/navbar.js">
+
+  </script>
+  <script src="js/main.js"></script>
+  <!-- animate css wow js -->
+  <script src="node_modules/animate.css/animate.min.css"></script>
+  <script src="js/wow.min.js"></script>
+  <script>
+    new WOW().init();
+  </script>
+  <!-- typed jscript -->
+  <script>
+    var typed = new Typed(".ainput", {
+      strings: ["Asif Khan", "Web Developer", "google My business expert"],
+      typeSpeed: 100,
+      backSpeed: 100,
+      loop: true
+    })
+  </script>
+  <!-- delay Scroll -->
+  <script>
+    $('a').click(function (e) {
+      $('html, body').animate({
+        scrollTop: $($(this).attr('href')).offset().top
+      }, 1000);
+    });
+  </script>
+  <!-- Tailwind Elements JS -->
+  <script type="text/javascript" src="js/index.min.js"></script>
+  <!-- Custom scripts -->
+  <script type="text/javascript"></script>
+  <script src="js/shownav.js"></script>
+  <script src="js/skill.js"></script>
+</body>
+
+</html>
