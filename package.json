@@ -1,0 +1,25 @@
+{
+  "name": "tw-elements",
+  "version": "1.0.0-alpha11",
+  "homepage": "https://tailwind-elements.com/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mdbootstrap/Tailwind-Elements.git"
+  },
+  
+  "author": "MDBootstrap",
+  "license": "MIT",
+  "main": "js/index.min.js",
+  "description": "<a href=\"https://mdbootstrap.com\"><img src=\"https://mdbootstrap.com/img/Marketing/general/logo/medium/mdb-r.png\"></a>",
+  "bugs": {
+    "url": "https://github.com/mdbootstrap/Tailwind-Elements/issues"
+  },
+  "scripts": {
+    "build": "npx tailwindcss -i ./src/input.css -o ./css/main.css",
+    "watch": "npx tailwindcss -i ./src/input.css -o ./css/main.css --watchh"
+  },
+  "keywords": [],
+  "devDependencies": {
+    "tailwindcss": "^3.1.4"
+  }
+}
