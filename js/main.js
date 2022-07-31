@@ -1,14 +1,3 @@
-$(document).ready(function(){
-    $("#toggle").click(function(){
-      $("#menubar").show(300);
-    });
-  });
-
-  $(document).ready(function(){
-    $("#toggleback").click(function(){
-      $(".menubarback").hide(300);
-    });
-  });
   
   // delay scroll
   $('a').click(function (e) {
