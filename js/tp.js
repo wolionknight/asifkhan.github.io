@@ -3,7 +3,7 @@
     Host : "smtp.elasticemail.com",
     Username : "thewolion@gmail.com",
     Password : "0596F5153760161CCB9E511A2AD5BC9ADF50",
-    To : 'thewolion@gmail.com',
+    To : 'thewolion.edu@gmail.com',
     From : document.getElementById("email").value,
     Subject : "New messenge"+document.getElementById("name").value,
     Body : "name:"+document.getElementById("name").value
