@@ -806,7 +806,7 @@
           <div class="max-w-[700px] mx-auto">
 
             <!-- form -->
-            <form onsubmit="sendEmail()">
+            <form action="https://formsubmit.co/your@email.com">
 
               <div class="form-group mb-6">
                 <input type="text" class="form-control block
@@ -823,7 +823,7 @@
               ease-in-out
               m-0
               focus:text-gray-700 focus:bg-white focus:border-sky-500 focus:outline-none" id="name"
-                  placeholder="Name">
+                  placeholder="Name" name="name">
               </div>
 
               <div class="form-group mb-6">
@@ -841,7 +841,7 @@
               ease-in-out
               m-0
               focus:text-gray-700 focus:bg-white focus:border-sky-500 focus:outline-none" id="email"
-                  placeholder="Email address">
+                  placeholder="Email address" name="email">
               </div>
 
               <div class="form-group mb-6">
@@ -859,7 +859,7 @@
               ease-in-out
               m-0
               focus:text-gray-700 focus:bg-white focus:border-sky-500 focus:outline-none" id="phonenumber"
-                  placeholder="phone number">
+                  placeholder="phone number" name="phone&nbsp;number">
               </div>
 
 
@@ -880,16 +880,16 @@
               ease-in-out
               m-0
               focus:text-gray-700 focus:bg-white focus:border-sky-500 focus:outline-none
-            " id="message" rows="3" placeholder="Message"></textarea>
+            " id="message" rows="3" placeholder="Message" name="message"></textarea>
               </div>
 
-              <div class="form-group form-check text-center mb-6">
+              <!-- <div class="form-group form-check text-center mb-6">
                 <input type="checkbox"
                   class="form-check-input appearance-none h-4 w-4 border border-gray-300 rounded-sm bg-white checked:bg-sky-600checked:border-sky-500 focus:outline-none transition duration-200 mt-1 align-top bg-no-repeat bg-center bg-contain mr-2 cursor-pointer"
                   id="exampleCheck87" checked>
                 <label class="form-check-label inline-block text-gray-800" for="exampleCheck87">Send me a copy of this
                   message</label>
-              </div>
+              </div> -->
 
               <button type="submit" class="
             w-full
