@@ -49,7 +49,7 @@
     style="background-image: url(img/mebg.jpg); background-position: 50%;">
     <div class=" bg-black bg-opacity-30 md:bg-opacity-50 ">
       <div id="TopNav"
-        class="flex md:items-center lg:space-x-96 md:space-x-80 2xl:space-x-80 z-50 fixed w-full drop-shadow-lg shadow-sky-500">
+        class="flex md:items-center z-50 fixed w-full drop-shadow-lg shadow-sky-500">
         <div class="text-white flex space-x-60 sm:space-x-96 px-10 py-5">
           <div id="brand" class="w-16 md:w-full md:text-2xl">
             <a href="#home">
@@ -60,7 +60,7 @@
             <ion-icon name="finger-print-outline"></ion-icon>
           </button>
         </div>
-        <nav id="menubar" class="menubarback mr-5 hidden fixed md:flex md:bg-transparent text-lg bg-sky-400 w-full">
+        <nav id="menubar" class="menubarback mr-5 hidden fixed md:flex md:justify-around md:bg-transparent text-lg bg-sky-400 w-full">
           <ul class="capitalize grid px-10 py-5 md:flex md:space-x-5">
             <li class=" flex justify-between md:hidden" id="toggleback">
               <div id="brand">
@@ -79,16 +79,15 @@
             <li class="textnav border-transparent border-b-2 hover:border-sky-500"><a
                 href="#achievement">achievement</a></li>
             <li class="textnav border-transparent border-b-2 hover:border-sky-500"><a href="#contact">Contact</a></li>
-            <li class="textnav border-transparent border-b-2 hover:border-sky-500"><a href="#contact">
-              <a href="shop.html" class="flex space-x-1 items-center justify-center">
-                <ion-icon name="cart-outline"></ion-icon>
-                <p>Cart</p>
-              </a>
-              </a>
+            <li class="textnav border-transparent border-b-2 hover:border-sky-500"><a target="_blank" href="https://asifnational.blogspot.com/#blogs">Blogs</a></li>
+            <li class="textnav border-transparent border-b-2 hover:border-sky-500"><a target="_blank" href="https://asifnational.company.site/">
+              <p>Cart</p>
+            </a>
+
           </li>
           </ul>
         </nav>
-
+        
       </div>
       <header>
         <div class="pb-5 md:pb-20 grid justify-items-center capitalize pt-16 md:pt-24">
@@ -121,7 +120,7 @@
   <section id="about" class="mt-10 py-16 px-10">
     <div class="md:flex">
       <div id="myimg" class="md:block hidden w-1/2 h-full px-10">
-        <img class="wow fade-in-up bg-sky-400 w-full h-full rounded-xl " src="img/meinbike.png" alt="">
+        <img class="wow fade-in-up bg-sky-400 w-full h-full rounded-xl " src="img/akme.jpg" alt="">
       </div>
 
       <div id="desc" class="md:w-1/2 md:pt-5">
@@ -145,7 +144,7 @@
         </div>
         <div id="myimg" class="md:hidden px-10 pt-5">
           <img class=" bg-sky-400 w-full h-full rounded-xl wow slide-in-up" data-wow-duration="2s"
-            src="img/meinbike.png" alt="">
+            src="img/akme.jpg" alt="">
         </div>
         <div id="socialco" class="flex space-x-5 pt-5 md:pt-5 justify-center text-xl wow slide-in-up"
           data-wow-duration="2s">
@@ -1194,9 +1193,9 @@
   <!-- typed jscript -->
   <script>
     var typed = new Typed(".ainput", {
-      strings: ["Asif Khan", "Web Developer", "google My business expert"],
+      strings: ["Asif Khan", "Front-end Web Developer", "Google My business expert", "Local SEO Expert"],
       typeSpeed: 100,
-      backSpeed: 100,
+      backSpeed: 10,
       loop: true
     })
   </script>
